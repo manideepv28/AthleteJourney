@@ -10,6 +10,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const userData = insertUserSchema.parse(req.body);
       
+      if (!userData.email || !userData.password) {
+        return res.status(400).json({ message: "Email and password are required" });
+      }
+      
       // Check if user already exists
       const existingUser = await storage.getUserByEmail(userData.email);
       if (existingUser) {
@@ -27,6 +31,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const { password, ...userWithoutPassword } = user;
       res.json({ user: userWithoutPassword });
     } catch (error) {
+      console.error("Registration error:", error);
       res.status(400).json({ message: "Invalid user data" });
     }
   });
@@ -34,6 +39,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/auth/login", async (req, res) => {
     try {
       const { email, password } = req.body;
+      
+      if (!email || !password) {
+        return res.status(400).json({ message: "Email and password are required" });
+      }
       
       const user = await storage.getUserByEmail(email);
       if (!user) {
@@ -46,11 +55,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
       
       // Update authentication status
-      await storage.updateUser(user.id, { isAuthenticated: true });
+      const updatedUser = await storage.updateUser(user.id, { isAuthenticated: true });
       
-      const { password: _, ...userWithoutPassword } = user;
+      const { password: _, ...userWithoutPassword } = updatedUser || user;
       res.json({ user: userWithoutPassword });
     } catch (error) {
+      console.error("Login error:", error);
       res.status(500).json({ message: "Authentication failed" });
     }
   });
