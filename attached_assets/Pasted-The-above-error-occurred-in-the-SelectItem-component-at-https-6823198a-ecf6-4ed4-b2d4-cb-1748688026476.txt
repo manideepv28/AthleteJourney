@@ -1,0 +1,84 @@
+The above error occurred in the <SelectItem> component:
+
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:848:7
+    at _c11 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/select.tsx:208:13)
+    at div
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=fea239aa:42:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:39:15
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:759:13
+    at div
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:39:15
+    at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:302:58
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=fea239aa:42:13
+    at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5BA4MTPB.js?v=fea239aa:260:22
+    at SelectPortal
+    at _c7 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/select.tsx:123:12)
+    at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+    at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+    at CollectionProvider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:29:13)
+    at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+    at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+    at Popper (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AKNI4ERO.js?v=fea239aa:1921:11)
+    at Select (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:90:5)
+    at div
+    at div
+    at div
+    at _c9 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/card.tsx:20:11)
+    at div
+    at Events (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/pages/events.tsx:38:45)
+    at ProtectedRoute (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/App.tsx?v=YaLzgeGEhfc8IszvoFIEB:34:27)
+    at Route (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1238c679:323:16)
+    at Switch…
+
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:848:7
+at _c11 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/select.tsx:208:13)
+at div
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=fea239aa:42:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:39:15
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:759:13
+at div
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:39:15
+at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:302:58
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:79:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=fea239aa:56:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=fea239aa:42:13
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5BA4MTPB.js?v=fea239aa:260:22
+at SelectPortal
+at _c7 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/select.tsx:123:12)
+at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+at CollectionProvider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-IYHFZU6K.js?v=fea239aa:29:13)
+at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+at Provider (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=fea239aa:38:15)
+at Popper (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AKNI4ERO.js?v=fea239aa:1921:11)
+at Select (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=827f228d:90:5)
+at div
+at div
+at div
+at _c9 (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/card.tsx:114:12)
+at div
+at _c (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/components/ui/card.tsx:20:11)
+at div
+at Events (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/pages/events.tsx:38:45)
+at ProtectedRoute (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/src/App.tsx?v=YaLzgeGEhfc8IszvoFIEB:34:27)
+at Route (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1238c679:323:16)
+at Switch…
+at t.value (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://6823198a-ecf6-4ed4-b2d4-cb95748153d7-00-30c31qntu787j.worf.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
